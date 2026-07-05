@@ -1,0 +1,13 @@
+[
+  {
+    "name": "IOS26 Liquid Glass Theme",
+    "description": "Thème Liquid Glass inspiré d'iOS 26 : panneaux de verre translucides et flottants, îlot de lecture, accent bleu iOS, fond dynamique tiré de la pochette et panneau de configuration intégré (schémas sombre/clair/auto, flou réglable).",
+    "preview": "docs/assets/screenshot-dark.png",
+    "readme": "README.md",
+    "usercss": "user.css",
+    "schemes": "color.ini",
+    "include": ["https://cdn.jsdelivr.net/gh/Matdp05/IOS26.EDAWARD@master/theme.js"],
+    "authors": [{ "name": "Matdp05", "url": "https://github.com/Matdp05" }],
+    "tags": ["ios", "liquid glass", "dark", "light", "translucent"]
+  }
+]
