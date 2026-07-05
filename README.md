@@ -4,6 +4,8 @@ Thème Spicetify inspiré du design « Liquid Glass » d'iOS 26 : panneaux de
 verre translucides et flottants, îlot de lecture, accent bleu iOS et fond
 dynamique tiré de la pochette du morceau en cours.
 
+![Aperçu du thème (schéma sombre)](docs/assets/screenshot-dark.png)
+
 ## Installation
 
 Le dossier doit se trouver dans `%APPDATA%\spicetify\Themes\IOS26.EDAWARD`.

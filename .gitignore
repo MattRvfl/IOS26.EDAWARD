@@ -1,1 +1,2 @@
 ﻿*.png
+!docs/assets/*.png
