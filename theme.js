@@ -49,6 +49,23 @@
       "notification-error": "FF3B30",
       misc: "AEAEB2",
     },
+    amoled: {
+      text: "FFFFFF",
+      subtext: "A8A8B0",
+      main: "000000",
+      sidebar: "000000",
+      player: "000000",
+      card: "0A0A0A",
+      shadow: "000000",
+      "selected-row": "FFFFFF",
+      button: "0A84FF",
+      "button-active": "0A84FF",
+      "button-disabled": "2A2A30",
+      "tab-active": "1A1A1F",
+      notification: "0A84FF",
+      "notification-error": "FF453A",
+      misc: "8E8E93",
+    },
   };
 
   const STORAGE_KEY = "ios26:settings";
@@ -105,6 +122,7 @@
     }
     root.style.setProperty("--glass-blur", BLUR[settings.blur]);
     document.body.classList.toggle("ios26-light", name === "light");
+    document.body.classList.toggle("ios26-amoled", name === "amoled");
     document.body.classList.toggle("ios26-no-art", !settings.artwork);
   }
 
@@ -252,6 +270,7 @@
           { label: "Sombre", value: "dark" },
           { label: "Clair", value: "light" },
           { label: "Auto", value: "auto" },
+          { label: "AMOLED", value: "amoled" },
         ],
         settings.scheme,
         pickScheme

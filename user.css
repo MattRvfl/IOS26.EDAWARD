@@ -25,6 +25,17 @@ body.ios26-light #ios26-backdrop::after {
   background: rgba(var(--spice-rgb-main), 0.66);
 }
 
+/* Schéma AMOLED : noir profond, verre plus dense */
+body.ios26-amoled {
+  --glass-bg: rgba(0, 0, 0, 0.62);
+  --glass-bg-strong: rgba(10, 10, 10, 0.76);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --glass-highlight: rgba(255, 255, 255, 0.12);
+}
+body.ios26-amoled #ios26-backdrop::after {
+  background: rgba(0, 0, 0, var(--backdrop-dim, 0.6));
+}
+
 /* Fond pochette désactivé via le menu IOS26 : dégradé statique seul */
 body.ios26-no-art #ios26-backdrop .layer {
   opacity: 0 !important;
