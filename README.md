@@ -5,7 +5,6 @@ verre translucides et flottants, îlot de lecture, fond dynamique tiré de la
 pochette du morceau en cours et panneau de réglages intégré.
 
 ![Aperçu du thème (schéma sombre)](docs/assets/screenshot-dark.png)
-![Aperçu du thème (schéma clair)](docs/assets/screenshot-light.png)
 
 ## Installation
 
@@ -21,8 +20,6 @@ spicetify apply
 
 Clique sur le bouton **IOS26** (icône réglages, près des flèches de
 navigation en haut) pour ouvrir le panneau :
-
-![Panneau de configuration](docs/assets/config-panel.gif)
 
 - **Schéma** : Sombre / Clair / Auto (suit Windows) / AMOLED (noir pur,
   pensé pour les écrans OLED) — bascule instantanée avec fondu, sans
